@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Karla';
+    src: url('fonts/Karla-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* or 'bold' */
+    font-style: normal;
+    font-stretch: 1% 500%;
+    
+}
+
+body {  
+    /* position: absolute; */
+    background-color: #1C1C1C;
+    margin: 0;
+}
+
+.container{
+    
+    /* white-space: nowrap;
+    overflow: hidden; */ 
+    margin: 5% 5% 5% 5%;
+    width : 85vw;
+    height: 80vh;
+    background-color: #1F2937;
+}
+
+h1{
+    font-family : 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 48;
+    padding-left: 10%;
+    padding-top: 5%;
+    color: white;
+}
+
+#specific-txt{
+    font-weight: 800;
+    color : #5B21B6;
+}
+
+h2{
+    font-size: 18;
+    font-weight: 300;
+    /* font-stretch: 100%; */
+    padding-left: 10%;
+    color: white;
+
+}
+
+button{
+    background-color: #10B981;
+    font-family: serif;
+    font-weight: 500;
+    font-stretch: ultra-expanded;
+    font-size: 16;
+    color: white;
+    margin-left: 10%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #10B981;
+    border-radius: 5px;
+}
+
+button:active{
+    background-color: #34D399;
+}
+
+hr{
+    margin-top: 50px;
+    width: 95%;  
+    border: 1px solid #2F3E53;
+    margin-bottom: 50px;
+}
+
+.Solns{
+    display: flex;
+    justify-content: space-around;
+}
+
+#soln1,#soln2{
+    font-family: 'Karla', serif;
+    background-color: #273549;
+    min-width: 250px;
+    /* height: 30px; */
+    font-size: 18;
+    padding: 10px;
+    color: #55F991;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#self{
+    color: white;
+    font-size: 20;
+    position: absolute;
+    bottom:0;
+    right:140;
+}
